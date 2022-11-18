@@ -2,6 +2,108 @@
 <html lang="en">
   <head>
     <title>SMK Jayawisata 1 &mdash; Vocational School</title>
+    <link rel="shortcut icon" href="https://www.jawis1menteng.sch.id/wp-content/uploads/2017/06/logo-jawis-web-kotak-150x150.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://www.jawis1menteng.sch.id/wp-content/uploads/2017/06/logo-jawis-web-kotak-150x150.png">
+    <style>
+      * {
+        box-sizing: border-box
+      }
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0
+      }
+      .mySlides {
+        display: none
+      }
+      img {
+        vertical-align: middle;
+      }
+      .slideshow-container {
+        max-width: 4000px;
+        position: relative;
+        margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* Caption text */
+      .text {
+        color: #ffffff;
+        font-size: 60px;
+        padding: 8px 12px;
+        position: fixed;
+        top: 450px;
+       
+        width: 100%;
+        text-align: justify;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #999999;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .dot:hover {
+        background-color: #ffffff;
+      }
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 6.0s;
+        animation-name: fade;
+        animation-duration: 6.0s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 11px
+        }
+      }
+    </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -14,6 +116,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/flexslider.css">
 
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
@@ -50,9 +155,12 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#profile-section" class="nav-link">Profil</a></li>
                 <li><a href="#courses-section" class="nav-link">Jurusan</a></li>
-                <li><a href="#programs-section" class="nav-link">Program Kami</a></li>
+                <li><a href="#programs-section" class="nav-link">Jurnal Kegiatan</a></li>
                 <li><a href="#teachers-section" class="nav-link">Pengajar</a></li>
+                <li><a href="blog.html" class="nav-link">BLOG</a></li>
+                
               </ul>
             </nav>
           </div>
@@ -60,7 +168,7 @@
           <div class="ml-auto w-25">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                <li class="cta"><a href="#contact-section" class="nav-link"><span>Hubungi Kami</span></a></li>
+                <li class="cta"><a href="ppdb.html" class="nav-link"><span>INFO PPDB</span></a></li>
               </ul>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
@@ -69,32 +177,137 @@
       </div>
       
     </header>
-
-    <div class="intro-section" id="home-section">
+<body>
+    <div class="slideshow-container">
       
-      <div class="slide-1" style="background-image: url('images/hero_1.jpg');" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-12">
-              <div class="row align-items-center">
-                <div class="col-lg-6 mb-4">
-                  <h1  data-aos="fade-up" data-aos-delay="100">Learn From The Expert</h1>
-                  <p class="mb-4"  data-aos="fade-up" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsa nulla sed quis rerum amet natus quas necessitatibus.</p>
-                  <p data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary py-3 px-5 btn-pill">Daftar Sekarang</a></p>
-
-                </div>
+      <div class="mySlides fade">
+        
+        <img src="images/img_bg_2.jpg" style="width:100%">
+        <div class="text">Perhotelan</div>
+      </div>
+      
+      <div class="mySlides fade">
+        
+        <img src="images/img_wisata.jpeg" style="width:100%">
+        <div class="text">Usaha Perjalanan Wisata</div>
+      </div>
+      <div class="mySlides fade">
+        
+        <img src="images/img_kuliner.jpg" style="width:100%">
+        <div class="text">Kuliner</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    <script>
+      let slideIndex = 0;
+      let timeoutId = null;
+      const slides = document.getElementsByClassName("mySlides");
+      const dots = document.getElementsByClassName("dot");
+      
+      showSlides();
+      function currentSlide(index) {
+           slideIndex = index;
+           showSlides();
+      }
+     function plusSlides(step) {
+        
+        if(step < 0) {
+            slideIndex -= 2;
+            
+            if(slideIndex < 0) {
+              slideIndex = slides.length - 1;
+            }
+        }
+        
+        showSlides();
+     }
+      function showSlides() {
+        for(let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+          dots[i].classList.remove('active');
+        }
+        slideIndex++;
+        if(slideIndex > slides.length) {
+          slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].classList.add('active');
+         if(timeoutId) {
+            clearTimeout(timeoutId);
+         }
+        timeoutId = setTimeout(showSlides, 6000); // Change image every 5 seconds
+      }
+    </script>
+               </body> 
 
                 
 
                 </div>
               </div>
             </div>
-            
+            <div class="site-section courses-title" id="profile-section"></div>
           </div>
         </div>
       </div>
     </div>
+    
+    <div id="overviews" class="section wb">
+      <div class="container">
+          <div class="section-title row text-center">
+              <div class="col-md-8 offset-md-2">
+                  <h3>Profil</h3>
+                  <p class="lead">SMK Jayawisata 1, diselenggarakan oleh Yayasan Pendidikan Tribina (YPT) bekerjasama dengan Yayasan Pendidikan Sunda Kelapa (YPSK) adalah Sekolah Pariwisata yang diselenggarakan sejak 1977.</p>
+              </div>
+          </div><!-- end title -->
+      
+          <div class="row align-items-center">
+              <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class="message-box">
+                      <h4>2022 BEST Jayawisata vocational school</h4>
+                      <h2>Welcome to Jayawisata vocational school</h2>
+                      <p>SMK Jayawisata 1, diselenggarakan oleh Yayasan Pendidikan Tribina (YPT) bekerjasama dengan Yayasan Pendidikan Sunda Kelapa (YPSK) adalah Sekolah Pariwisata yang diselenggarakan sejak 1977.  SMK Jayawisata memiliki 3 program keahlian yaitu : Usaha Perjalanan Wisata, Perhotelan, dan Kuliner</p>
 
+                      <p> Lokasi Sekolah yang Strategis di Pusat Ibukota Jakarta yaitu Kawasan Menteng Berdekatan dengan Mesjid Agung Sunda Kelapa, Gereja Santo Paulus, Kantor Bappenas, Taman Suropati dan Rumah Dinas Wakil Presiden RI.</p>
+
+                      
+                  </div><!-- end messagebox -->
+              </div><!-- end col -->
+      
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class="post-media wow fadeIn">
+                      <img src="images/hero_1.jpg" alt="" class="img-fluid img-rounded">
+                  </div><!-- end media -->
+              </div><!-- end col -->
+    </div>
+    <div class="row align-items-center">
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class="post-media wow fadeIn">
+                      <img src="images/bg_profile1.jpg" alt="" class="img-fluid img-rounded">
+                  </div><!-- end media -->
+              </div><!-- end col -->
+      
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class="message-box">
+                      <h2>Selayang Pandang</h2>
+                      <p>YPT  pada saat itu (1975) dibentuk oleh beberapa orang Generasi Muda Pelaku/ Pengembang Industri Pariwisata  (Manager Hotel, Manager Travel, Manager Airlines, Guide Profesional, Ahli Sanitasi, dan Ahli Komunikasi). Atas perjuangannya, maka Depdikbud mengakui  SMA Par Jayawisata  tahun  1981, memberi nama
+                        SMIP (Sekolah Menengah Industri Pariwisata) Jayawisata.</p>
+
+                      <p> Pada tahun 1989 -1992 , YPT bersama SMIP Jayawisata pernah mendapat tugas dari mengatur penyeragaman kurikulum ,system ujian  dan  menyelenggarakan ujian Negara   pertama di beberapa SMIP di beberapa daerah di Indonesia Sehingga Ijazahnya disamakan dengan Negeri, karena  Depdikbud belum mendirikan  SMIP  Negeri .  Baru pada tahun 1994 Depdikbud mendirikan SMIP Negeri ( Sekarang SMK Negeri ) dibeberapa propinsi dan sekarang sudah berkembang semuanya.</p>
+
+                      <a href="profile.html" class="hover-btn-new orange"><span>Profil Selengkapnya</span></a>
+                  </div><!-- end messagebox -->
+              </div><!-- end col -->
+            </div>
+          </div><!-- end row -->
+      </div><!-- end container -->
+  </div><!-- end section -->
     
     <div class="site-section courses-title" id="courses-section">
       <div class="container">
@@ -113,13 +326,13 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/img_bg_2.jpg" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
-                <h3><a href="#">Perhotelan</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
+                
+                <h3><a href="perhotelan.html">Perhotelan</a></h3>
+                <p>Program AP (Akomodasi Perhotelan), ditambah F & B Service dan F & B Production sebagai modal untuk merintis karier di usaha Perhotelan, Restaurant, Culinary, atau Chef. Bidang ini hanya bagi yang berbakat dan berminat serius. Setelah lulus bisa bekerja di Hotel (Front Office, Housekeeping, Restaurant, Bar dan Kitchen). Selain mendapatkan Ijazah SMK juga mendapatkan Sertifkat keahlian dari Lembaga Sertifikasi Profesi yang diperlukan bekerja di Dalam Negeri dan Luar Negeri. </p>
               </div>
               <div class="d-flex border-top stats">
                 <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
@@ -129,13 +342,13 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/img_wisata.jpeg" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
-                <h3><a href="#">Usaha Perjalanan</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
+                
+                <h3><a href="pariwisata.html">Usaha Perjalanan Wisata</a></h3>
+                <p>Program Usaha Perjalanan Wisata (UPW), juga bagi mereka yang berbakat dan berminat dibidang traveling, mengikuti pelatihan Obyek Wisata, Guiding, MICE, Airline Ticketing & Reservation. Untuk bidang ini harus kuat dalam Bahasa Inggris, IT, Cerdas dan Kreatif serta Prima dalam ketahanan Fisik.</p>
               </div>
               <div class="d-flex border-top stats">
                 <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
@@ -143,33 +356,19 @@
               </div>
             </div>
 
-            <div class="course bg-white h-100 align-self-stretch">
-              <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
-              </figure>
-              <div class="course-inner-text py-4 px-4">
-                
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
-                <h3><a href="#">Wisata</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
-                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
-              </div>
-            </div>
+          
 
 
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/img_kuliner.jpg" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
-                <h3><a href="#">Kuliner</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
+               
+                <h3><a href="kuliner.html">Kuliner</a></h3>
+                <p>Keahlian Kuliner merupakan suatu program yang menghasilkan tenaga ahli dalam pelayanan boga yang terampil dan kompeten di bidang pelayanan dasar kuliner khususnya pemenuhan kebutuhan dasar manusia </p>
               </div>
               <div class="d-flex border-top stats">
                 <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
@@ -201,7 +400,7 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
             <h2 class="section-title">Our Programs</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!</p>
+            <p>Memiliki misi untuk Menghasilkan tamatan yang memiliki Pengetahuan, Keterampilan dan Sikap Profesional, Mandiri dan Berdaya Saing Global. Kami mempunyai beberapa program keunggulan seperti:</p>
           </div>
         </div>
         <div class="row mb-5 align-items-center">
@@ -210,7 +409,7 @@
           </div>
           <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
             <h2 class="text-black mb-4">Kami Yang Terdepan Dalam Membimbing</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
+            <p class="mb-4">Di era digital ini kami mempunyai methode belajar yang mengikuti zaman dengan mempertunjukkan video tutorial sekaligus praktek langsung di lapangan. </p>
 
             <div class="d-flex align-items-center custom-icon-wrap mb-3">
               <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
@@ -231,7 +430,7 @@
           </div>
           <div class="col-lg-4 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
             <h2 class="text-black mb-4">Pembelajaran Yang Terbaik</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
+            <p class="mb-4">Dengan kurikulum yang di racik oleh ahli,kami menjamin bahwa materi yang kami berikan merupakan salah satu dari yang terbaik. </p>
 
             <div class="d-flex align-items-center custom-icon-wrap mb-3">
               <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
@@ -252,7 +451,7 @@
           </div>
           <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
             <h2 class="text-black mb-4">Pengajar Yang Tersertifikasi</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
+            <p class="mb-4">Para Guru ahli yang tersedia sudah tersertifikasi dalam bidang mereka masing-masing sehingga dapat memberikan pengalaman belajar yang terbaik dan gampang di mengerti. </p>
 
             <div class="d-flex align-items-center custom-icon-wrap mb-3">
               <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
@@ -276,7 +475,7 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
             <h2 class="section-title">Our Teachers</h2>
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellat aut neque! Doloribus sunt non aut reiciendis, vel recusandae obcaecati hic dicta repudiandae in quas quibusdam ullam, illum sed veniam!</p>
+            <p class="mb-5">Berikut adalah daftar guru dan staff kami yang mengurus bidang masing-masing. </p>
           </div>
         </div>
 
@@ -284,33 +483,60 @@
 
           <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
             <div class="teacher text-center">
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <img src="images/hadi.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
-                <h3 class="text-black">Jamal</h3>
-                <p class="position">Guru Tataboga</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
+                <h3 class="text-black">HADI WAHYONO, SE</h3>
+                <p class="position">KEPALA SEKOLAH</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="teacher text-center">
+              <img src="images/denny.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">DENNY SYARIFULLAH, S.KOM</h3>
+                <p class="position">– WAKIL KEPALA SEKOLAH ( KURIKULUM ) / Guru Informatika</p>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
             <div class="teacher text-center">
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <img src="images/hida.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
-                <h3 class="text-black">Siti</h3>
-                <p class="position">Guru Perhotelan</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
+                <h3 class="text-black">Dra. SRI HIDA NURBAYA</h3>
+                <p class="position">Guru Bahasa Indonesia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="teacher text-center">
+              <img src="images/hollidunan.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">HOLLIDUNAN, S. Tr. Par</h3>
+                <p class="position">Guru Produktif Hotel</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="teacher text-center">
+              <img src="images/neneng.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">NENENG MINTARSIH, S. Tr. Par</h3>
+                <p class="position">Guru Produktif Travel</p>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
             <div class="teacher text-center">
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <img src="images/fika.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
-                <h3 class="text-black">Putri</h3>
-                <p class="position">Guru Wisata</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
+                <h3 class="text-black">FIKA PUNARSARI, S.Pd</h3>
+                <p class="position">Guru Produktif Kuliner</p>
               </div>
             </div>
           </div>
@@ -321,6 +547,13 @@
     <div class="site-section bg-image overlay" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row justify-content-center align-items-center">
+          <div class="col-md-8 text-center testimony">
+            <img src="images/person_4.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
+            <h3 class="mb-4">Akmal</h3>
+            <blockquote>
+              <p>&ldquo; Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum rem soluta sit eius necessitatibus voluptate excepturi beatae ad eveniet sapiente impedit quae modi quo provident odit molestias! Rem reprehenderit assumenda &rdquo;</p>
+            </blockquote>
+          </div>
           <div class="col-md-8 text-center testimony">
             <img src="images/person_4.jpg" alt="Image" class="img-fluid w-25 mb-4 rounded-circle">
             <h3 class="mb-4">Akmal</h3>
@@ -395,64 +628,14 @@
 
 
 
-    <div class="site-section bg-light" id="contact-section">
-      <div class="container">
-
-        <div class="row justify-content-center">
-          <div class="col-md-7">
-
-
-            
-            <h2 class="section-title mb-3">Hubungi Kami</h2>
-            <p class="mb-5">Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
-          
-            <form method="post" data-aos="fade">
-              <div class="form-group row">
-                <div class="col-md-6 mb-3 mb-lg-0">
-                  <input type="text" class="form-control" placeholder="First name">
-                </div>
-                <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Last name">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="text" class="form-control" placeholder="Subject">
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <input type="email" class="form-control" placeholder="Email">
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-md-12">
-                  <textarea class="form-control" id="" cols="30" rows="10" placeholder="Write your message here."></textarea>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <div class="col-md-6">
-                  
-                  <input type="submit" class="btn btn-primary py-3 px-5 btn-block btn-pill" value="Send Message">
-                </div>
-              </div>
-
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
     
      
     <footer class="footer-section bg-white">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h3>About OneSchool</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consectetur ut hic ipsum et veritatis corrupti. Itaque eius soluta optio dolorum temporibus in, atque, quos fugit sunt sit quaerat dicta.</p>
+            <h3>About Jayawisata Vocational School</h3>
+            <p>SMK Jayawisata 1, diselenggarakan oleh Yayasan Pendidikan Tribina (YPT) bekerjasama dengan Yayasan Pendidikan Sunda Kelapa (YPSK) adalah Sekolah Pariwisata yang diselenggarakan sejak 1977.</p>
           </div>
 
           <div class="col-md-3 ml-auto">
@@ -465,16 +648,7 @@
             </ul>
           </div>
 
-          <div class="col-md-4">
-            <h3>Subscribe</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt iure iusto architecto? Numquam, natus?</p>
-            <form action="#" class="footer-subscribe">
-              <div class="d-flex mb-5">
-                <input type="text" class="form-control rounded-0" placeholder="Email">
-                <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
-              </div>
-            </form>
-          </div>
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="315" height="309" id="gmap_canvas" src="https://maps.google.com/maps?q=SMK%20JAYAWISATA%201&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:309px;width:315px;}</style><a href="https://www.embedgooglemap.net">how to add google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:309px;width:315px;}</style></div></div>
 
         </div>
 
